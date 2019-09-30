@@ -9,8 +9,9 @@
 import UIKit
 
 struct SearchResultViewModel {
+    let imageURL: URL?
     let title: String
     let author: String
-    let artworkURL: URL?
+    
     
 }
